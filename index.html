@@ -7,12 +7,43 @@
 	<title>FuNa's website</title>
 	<link rel="icon" href="icon.jpg">
 </head>
-<body>
-	<h1 class="sample">FuNa's website</h1><br>
-	<a href="https://funajoh.github.io/profile/"><font size="5">👤Profile</font></a><br>
-	<a href="https://funajoh.github.io/baseball/"><font size="5">⚾Baseball</font></a><br>
-	<a href="https://funajoh.github.io/photograph/"><font size="5">📷Photograph</font></a><br>
-	<a href="https://funajoh.github.io/travel/"><font size="5">🗾Travel</font></a><br>
-	</div>
-</body>
+  <body>
+    <header>
+      <div class="top.jpg">
+          <a href="https://funajoh.github.io/">FuNa's website</a>
+      </div>
+      <div id="hamburger">
+          <div class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+      <nav class="sm">
+        <ul>
+          <li><a href="https://funajoh.github.io/">Top</a></li>
+       　 <li><a href="https://funajoh.github.io/profile/">Profile</a></li>
+        　<li><a href="https://funajoh.github.io/baseball/">Baseball</a></li>
+	　<li><a href="https://funajoh.github.io/photograph/">Photograph</a></li>
+	　<li><a href="https://funajoh.github.io/travel/">Travel</a></li>
+       </ul>
+     </nav>
+      <nav class="pc">  <!--pcクラスを追記-->
+        <ul>
+          <li><a href="https://funajoh.github.io/">Top</a></li>
+       　 <li><a href="https://funajoh.github.io/profile/">Profile</a></li>
+        　<li><a href="https://funajoh.github.io/baseball/">Baseball</a></li>
+	　<li><a href="https://funajoh.github.io/photograph/">Photograph</a></li>
+	　<li><a href="https://funajoh.github.io/travel/">Travel</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="jquery-3.5.1.min.js"></script>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.sm').slideToggle();
+        });
+      </script>
+  </body>
 </html>
