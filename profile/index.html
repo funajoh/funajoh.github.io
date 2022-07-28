@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>プロフィール</title>
-	<link rel="icon" href="icon.jpg">
+<meta charset="utf-8">
+<title>JavaScriptによる閲覧制限</title>
+<script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力してください:","");
+      location.href = UserInput + "/";
+   }
+</script>
 </head>
 <body>
-	<h1 class="sample">coming soon</h1><br>
-	<p>👤👤👤</p>
-	</div>
+<input type="button" value="閲覧にはパスワードが必要です" onclick="gate();">
 </body>
 </html>
