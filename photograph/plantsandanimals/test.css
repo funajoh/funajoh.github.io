@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #f0f8ff;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 15px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.sm {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+  .pc {
+    display: none;
+  }
+
+  #hamburger {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    height: 60px;
+    width: 60px;
+  }
+
+  .icon span {
+    position: absolute;
+    left: 15px;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 8px;
+    transition: ease 0.75s;
+  }
+
+  .icon span:nth-of-type(1) {
+    top: 16px;
+  }
+  .icon span:nth-of-type(2) {
+    top: 28px;
+  }
+  .icon span:nth-of-type(3) {
+    bottom: 16px;
+  }
+
+  .close span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 28px;
+  }
+
+  .close span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .close span:nth-of-type(3) {
+      transform: rotate(-45deg);
+      top: 28px;
+  }
+
+  .sm {
+      top: 60px;
+      left: 0px;
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      background-color: rgba(34, 49, 52, 0.9);
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  a {
+    text-align: center; 
+    border-top: solid 0.5px rgba(255, 255, 255, 0.6);
+  }
+}
+
+
+
+
+
+.msr_newslist01 {
+  border-top: 1px solid #AAAAAA;
+  width: 100%;
+}
+.msr_newslist01 li {
+  border-bottom: 1px solid #AAAAAA;
+  font-size: 14px;
+}
+.msr_newslist01 li a {
+  box-sizing: border-box;
+  color: #000000;
+  display: table;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  width: 100%;
+}
+.msr_newslist01 li a:hover {
+  background: #EEEEEE;
+  text-decoration: none;
+}
+.msr_newslist01 li div {
+  display: table-cell;
+  width: 144px;
+}
+.msr_newslist01 li p {
+  display: table-cell;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+/* 時間の設定 */
+.msr_newslist01 li time {
+  display: table-cell;
+  vertical-align: top;
+  width: 90px;
+}
+
+/* カテゴリの設定 */
+.msr_newslist01 li .cat01,
+.msr_newslist01 li .cat02 {
+  background-color: #1B73BA;
+  border-radius: 1px;
+  color: #FFFFFF;
+  font-size: 9px;
+  padding: 0 2px;
+  text-align: center;
+  width: 50px;
+}
+.msr_newslist01 li .cat02 {
+  background-color: #0E3A5F;
+}
