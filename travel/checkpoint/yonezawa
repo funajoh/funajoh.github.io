@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>米沢旅行</title>
+</head>
+<body>
+　　<h1>Schedule</h1>
+	<p>　　　　08：08　東京駅</p>
+	<p>　　　　10：22　米沢駅</p>
+	<p>　　　　10：30　日産レンタカー</p>
+	<p style="color:darkgray">　　　　　↓移動　2km（5分）</p>
+	<p>　　　　10：40　<a href="https://www.uesugi-jinja.or.jp/">上杉神社</a></p>
+	<p style="color:darkgray">　　　　　↓移動　1km（1分）</p>
+	<p>　　　　11：30　<a href="https://www.yonezawa-hikousen.com/">飛行船</a></p>
+	<p style="color:darkgray">　　　　　↓移動　1km（1分）</p>
+	<p>　　　　13：00　<a href="https://www.wakuwakukan.co.jp/">染織工房</a></p>
+	<p style="color:darkgray">　　　　　↓滞在　体験（60分）</p>
+	<p style="color:darkgray">　　　　　↓移動　10km（30分）</p>
+	<p>　　　　14：30　<a href="http://sumomoyama.web.fc2.com/tannan.html">トトロの森</a></p>
+	<p style="color:darkgray">　　　　　↓移動　14km（30分）</p>
+	<p>　　　　15：00　<a href="https://tabelog.com/yamagata/A0602/A060201/6008766/">ufu uhu FARM</a></p>
+	<p style="color:darkgray">　　　　　↓移動　2km（3分）</p>
+	<p>　　　　15：30　<a href="http://www.onsen-asahiya.com/">旭屋旅館</a></p>
+	<p style="color:darkgray">　　　　　↓宿泊　</p>
+	<p>　　　　10：00　<a href="https://onogawa.jp/">小野川温泉</a></p>
+	<p style="color:darkgray">　　　　　↓移動・散策等（450分）</p>
+	<p>　　　　17：30　日産レンタカー</p>
+	<p>　　　　17：41　米沢駅</p>
+	<p>　　　　19：48　東京駅</p>
+　　<h1>Information</h1>
+	<a href="https://funajoh.github.io/">トップに戻る</a>
+</body>
+</html>
